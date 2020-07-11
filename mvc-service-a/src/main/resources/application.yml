@@ -13,4 +13,4 @@ spring:
     schemas: public
 
 server:
-  port: 8081
+  port: 8001

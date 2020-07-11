@@ -11,4 +11,4 @@ r2dbc:
 
 
 server:
-  port: 8082
+  port: 8002
