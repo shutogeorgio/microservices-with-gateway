@@ -1,0 +1,14 @@
+spring:
+  r2dbc:
+    url: r2dbc:pool:postgresql://localhost:5431/posts
+    username: postgres
+    password: password
+    initialization-mode: always
+
+r2dbc:
+  migrate:
+    resources-path: classpath:/db/migration/*.sql
+
+
+server:
+  port: 8082

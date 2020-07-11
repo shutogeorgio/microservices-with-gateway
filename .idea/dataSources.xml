@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="mvc_service_a@localhost" uuid="70b3971a-9825-43d3-b2ab-9ec64adf60bc">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://localhost:5432/mvc_service_a</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="webflux_service_b@localhost" uuid="96ee9915-5f14-40fe-a3c5-c7760bf7a139">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://localhost:5431/posts</jdbc-url>
+    </data-source>
+  </component>
+</project>

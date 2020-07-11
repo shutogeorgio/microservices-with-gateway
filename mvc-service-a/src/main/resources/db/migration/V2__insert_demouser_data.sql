@@ -1,0 +1,2 @@
+INSERT INTO users (id, first_name, last_name, email, country, state, city, zip) VALUES ('{a0eebc99-9c0b-4ef8-bb6d-6bb9bd380a11}', 'Google', 'Nice', 'admin@google.com', 'United State', 'CA', 'San Jose', '95000');
+INSERT INTO users (id, first_name, last_name, email, country, state, city, zip) VALUES (uuid_generate_v4(), 'Firefox', 'Nice', 'admin@firefox.com', 'United State', 'NY', 'NY City', '10001');

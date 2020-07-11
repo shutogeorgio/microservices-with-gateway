@@ -1,0 +1,2 @@
+INSERT INTO post (id, title, content, author_id, category_id, created_at, updated_at) VALUES (1, 'Google Pixel 5 is released', 'I am quite', '{a0eebc99-9c0b-4ef8-bb6d-6bb9bd380a11}', '1', CURRENT_TIMESTAMP, CURRENT_TIMESTAMP);
+INSERT INTO post (id, title, content, author_id,  category_id, created_at, updated_at) VALUES (2, 'iPhone 12 vs. Pixel', 'I am not curious about both of them. Just please follow you instincts', '{a0eebc99-9c0b-4ef8-bb6d-6bb9bd380a11}', '1', CURRENT_TIMESTAMP, CURRENT_TIMESTAMP);

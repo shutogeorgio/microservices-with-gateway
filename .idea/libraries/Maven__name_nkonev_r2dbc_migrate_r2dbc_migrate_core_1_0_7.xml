@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: name.nkonev.r2dbc-migrate:r2dbc-migrate-core:1.0.7">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/name/nkonev/r2dbc-migrate/r2dbc-migrate-core/1.0.7/r2dbc-migrate-core-1.0.7.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/name/nkonev/r2dbc-migrate/r2dbc-migrate-core/1.0.7/r2dbc-migrate-core-1.0.7-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/name/nkonev/r2dbc-migrate/r2dbc-migrate-core/1.0.7/r2dbc-migrate-core-1.0.7-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
