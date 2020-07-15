@@ -13,5 +13,11 @@
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
       <jdbc-url>jdbc:postgresql://localhost:5431/posts</jdbc-url>
     </data-source>
+    <data-source source="LOCAL" name="MongoDB - service_c@localhost" uuid="8016dd54-763c-4c6a-9eb2-a8cdca997b0a">
+      <driver-ref>mongo</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.dbschema.MongoJdbcDriver</jdbc-driver>
+      <jdbc-url>mongodb://localhost:27017/service_c</jdbc-url>
+    </data-source>
   </component>
 </project>

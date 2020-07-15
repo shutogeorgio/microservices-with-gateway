@@ -1,8 +1,8 @@
 version: '3.1'
 
 services:
-  db:
-    container_name: mvc_service_a
+  mvc_postgres:
+    container_name: service_a
     image: postgres
     restart: always
     environment:
