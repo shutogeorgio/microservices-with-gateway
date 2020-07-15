@@ -12,8 +12,6 @@ import webfluxserviceb.repository.PostRepository;
 
 import java.time.LocalDateTime;
 
-import static org.springframework.http.MediaType.APPLICATION_JSON;
-import static org.springframework.web.reactive.function.server.ServerResponse.ok;
 
 @RestController
 @RequestMapping("/api/v2/post")

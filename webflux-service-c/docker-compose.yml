@@ -1,19 +1,14 @@
-version: '3.1'
-
+version: '3.7'
 services:
-  mongo-db:
+  mongodb_container:
     image: mongo:latest
-    container_name: mongo_db
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: mongo
+      MONGO_INITDB_ROOT_PASSWORD: password
     ports:
       - 27017:27017
-    environment:
-      - MONGO_INITDB_DATABASE=webflux_c
-      - MONGO_INITDB_ROOT_USERNAME=mongo
-      - MONGO_INITDB_ROOT_PASSWORD=mongo
     volumes:
-      - db-data:/data/db
-      - mongo-config:/data/configdb
+      - mongodb_data_container:/data/db
 
 volumes:
-  db-data:
-  mongo-config:
+  mongodb_data_container:

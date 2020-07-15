@@ -2,12 +2,14 @@ package reactive.webflux.service.c.webfluxservicec.handler;
 
 import org.springframework.http.MediaType;
 import org.springframework.stereotype.Component;
+import org.springframework.web.reactive.function.server.RouterFunction;
 import org.springframework.web.reactive.function.server.ServerRequest;
 import org.springframework.web.reactive.function.server.ServerResponse;
 import reactive.webflux.service.c.webfluxservicec.model.Comment;
 import reactive.webflux.service.c.webfluxservicec.repository.CommentRepository;
 import reactor.core.publisher.Mono;
 
+import static org.springframework.web.reactive.function.server.RouterFunctions.route;
 import static org.springframework.web.reactive.function.server.ServerResponse.ok;
 
 @Component
@@ -17,6 +19,13 @@ public class CommentHandler {
 
     CommentHandler(CommentRepository commentRepository) {
         this.commentRepository = commentRepository;
+    }
+
+    public RouterFunction<ServerResponse> routes() {
+        return route()
+                .path("/video", builder -> builder.GET("/", this::search)
+                        .GET("/{id}", this::getOne).POST("/", this::create))
+                .build();
     }
 
     public Mono<ServerResponse> search(ServerRequest req) {

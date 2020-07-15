@@ -1,2 +1,7 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb://mongo:password@localhost:27017/service_c
+
 server:
-  port: 8001
+  port: 8003

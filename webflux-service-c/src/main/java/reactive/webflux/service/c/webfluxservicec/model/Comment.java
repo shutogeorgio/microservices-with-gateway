@@ -13,7 +13,7 @@ import java.util.UUID;
 @AllArgsConstructor
 @NoArgsConstructor
 @Data
-@Document
+@Document("comment")
 public class Comment {
 
     @Id
